@@ -90,6 +90,21 @@ img {
   .header__logo {
     margin: 0;
   }
+  .header__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+}
+.header__heading {
+  text-align: center;
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  .header__heading {
+    text-align: left;
+    font-size: 5rem;
+  }
 }
 
 .navegacion {
@@ -105,8 +120,6 @@ img {
   }
 }
 
-.navegacion__link {
-}
 @media (min-width: 768px) {
   .navegacion__link {
     color: var(--blanco);
