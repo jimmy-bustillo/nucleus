@@ -56,7 +56,7 @@ img {
 }
 @media (min-width: 768px) {
   .header {
-    background-size: 45rem;
+    background-size: 60rem;
   }
 }
 @media (min-width: 992px) {
@@ -89,5 +89,26 @@ img {
 @media (min-width: 768px) {
   .header__logo {
     margin: 0;
+  }
+}
+
+.navegacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .navegacion {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
+
+.navegacion__link {
+}
+@media (min-width: 768px) {
+  .navegacion__link {
+    color: var(--blanco);
   }
 }
