@@ -123,6 +123,7 @@ img {
 }
 @media (min-width: 768px) {
   .header__grafico {
+    margin: 0 auto;
     width: 35rem;
   }
 }
