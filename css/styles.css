@@ -158,6 +158,9 @@ img {
     color: var(--blanco);
   }
 }
+.navegacion__link--blanco {
+  color: var(--blanco);
+}
 
 .nucleus {
   margin-top: 3rem;
@@ -316,4 +319,19 @@ img {
   color: var(--primario);
   font-weight: 700;
   text-align: right;
+}
+
+.footer {
+  background-color: #5a30a0;
+  padding: 3rem 0;
+}
+
+.footer__logo {
+  width: 20rem;
+  margin: 0 auto 4rem auto;
+}
+@media (min-width: 768px) {
+  .footer__logo {
+    margin: 0;
+  }
 }
